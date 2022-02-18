@@ -3,6 +3,7 @@
 9:00-9:30: Fixed boilerplate errors with create-react-app build.
 9:30-10:00: Built and finished project proposal template.
 10:00-11:00: Building project foundation.
+11:00-12:00: Troubleshooting Build Errors.
 
 # Getting Started with Create React App
 
