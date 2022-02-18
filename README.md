@@ -1,6 +1,7 @@
 ## Research & Planning Log
 
 9:00-9:30: Fixed boilerplate errors with create-react-app build.
+9:30-10:00: Built and finished project proposal template.
 
 # Getting Started with Create React App
 
