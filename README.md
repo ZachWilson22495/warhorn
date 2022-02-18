@@ -4,6 +4,7 @@
 9:30-10:00: Built and finished project proposal template.
 10:00-11:00: Building project foundation.
 11:00-12:00: Troubleshooting Build Errors.
+1:15-2:15: Fixed Build Errors. Project Builds.
 
 # Getting Started with Create React App
 
