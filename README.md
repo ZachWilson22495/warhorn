@@ -1,3 +1,7 @@
+## Research & Planning Log
+
+9:00-9:30: Fixed boilerplate errors with create-react-app build.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
