@@ -5,6 +5,7 @@
 10:00-11:00: Building project foundation.
 11:00-12:00: Troubleshooting Build Errors.
 1:15-2:15: Fixed Build Errors. Project Builds.
+2:15-3:00: Dried up CharacterControl and connected files. Project now allows for building characters and adding characters to a list.
 
 # Getting Started with Create React App
 
