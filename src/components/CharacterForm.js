@@ -6,7 +6,7 @@ import ReusableForm from "./ReusableForm";
 function CharacterForm(props) {
   function handleNewCharacterFormSubmission(event) {
     event.preventDefault();
-    props.onNewCharacterCreation({name: event.target.name.value, health: event.target.health.value, bonus: event.target.bonus.value, roll: event.target.roll.value, id: v4()})
+    props.onNewCharacterCreation({name: event.target.name.value, health: event.target.health.value, bonus: event.target.bonus.value, advantage: event.target.advantage.value, roll: event.target.roll.value, id: v4()})
   }
 
   return (

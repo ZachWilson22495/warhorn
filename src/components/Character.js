@@ -18,8 +18,8 @@ function Character(props){
 Character.propTypes = {
   name: PropTypes.string.isRequired,
   health: PropTypes.number,
-  bonus: PropTypes.number.isRequired,
-  advantage: PropTypes.bool,
+  bonus: PropTypes.number,
+  advantage: PropTypes.string,
   roll: PropTypes.number,
   id: PropTypes.string,
   whenCharacterClicked: PropTypes.func
