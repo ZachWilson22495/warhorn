@@ -12,6 +12,7 @@
 2/27
 
 11:00-12:30: Researching Method types in React
+12:30-1:30: Researching Forms in React
 
 # Getting Started with Create React App
 
