@@ -6,6 +6,7 @@ import EditCharacterForm from './EditCharacterForm'
 
 
 const initialCharacters = [
+  
 
 ]
 
@@ -19,6 +20,31 @@ class CharacterControl extends React.Component{
       editing: false
     };
   }
+
+  // roll = (id) => {
+  //   const finalRoll;
+  //   if (character.roll != undefined) {
+  //     finalRoll = character.roll
+  //   }
+  //   let rollA = Math.random (between 1 and 20)
+  //   let rollB = Math.random (between 1 and 20)
+  //   if (character.advantage = "Default") {
+  //     finalRoll = rollA
+  //   } else if (character.advantage = "Advantage") {
+  //     if (rollA > rollB) {
+  //       finalRoll = rollA
+  //     } else {
+  //       finalRoll = rollB
+  //     }
+  //   } else if (character.advantage = "Disadvantage") {
+  //     if (rollA < rollB) {
+  //       finalRoll = rollA
+  //     } else {
+  //       finalRoll = rollB
+  //     }
+  //   }
+  //   character.roll = finalRoll (update State?)
+  // }
 
   handleDeletingCharacter = (id) => {
     const newMainCharacterList = this.state.availableCharacters.filter(character => character.id !== id);
@@ -83,17 +109,14 @@ class CharacterControl extends React.Component{
       onClickingEdit = {this.handleEditClick} />
       buttonText = "Return to Character List";
       
-      // While our TicketDetail component only takes placeholder data, we will eventually be passing the value of selectedTicket as a prop.
     }
     else if (this.state.formVisibleOnPage) {
-      // This conditional needs to be updated to "else if."
       currentlyVisibleState = <CharacterForm onNewCharacterCreation={this.handleAddCharacter}  />;
       buttonText = "Return to Character List";
 
     }
     else {
       currentlyVisibleState = <CharacterDisplay characterList={this.state.availableCharacters} onCharacterSelection={this.handleChangingSelectedCharacter} />;
-      // Because a user will actually be clicking on the ticket in the Ticket component, we will need to pass our new handleChangingSelectedTicket method as a prop.
       buttonText = "Add Character";
     }
     return (

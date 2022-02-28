@@ -14,6 +14,8 @@
 11:00-12:30: Researching Method types in React
 12:30-1:30: Researching Forms in React
 2:00-3:00: Trying to fix errors with adding Character
+3:00-3:30: Characters now build correctly!
+3:30-4:30: Learned and implemented Select Form. Pseudocoded roll function
 
 # Getting Started with Create React App
 

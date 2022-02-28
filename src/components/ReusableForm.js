@@ -10,20 +10,25 @@ function ReusableForm(props) {
           name='name'
           placeholder=' Character Name' />
         <input
-          type='text'
+          type='number'
           name='health'
           placeholder='Character Health' />
         <input
           type='number'
           name='bonus'
           placeholder='Character Bonus to Initiative' />
-        <select>
-          
-
-          <option value="normal">Normal</option>
-          <option value="advantage">Advantage</option>
-          <option value="disadvantage">Disadvantage</option>
-          </select>
+        <select
+          type='text'
+          name='advantage'
+          placeholder='Advantage/Disadvantage?'>
+          <option value="Default">Default</option>
+          <option value="Advantage">Advantage</option>
+          <option value="Disadvantage">Disadvantage</option>
+        </select>
+        <input
+          type='text'
+          name='roll'
+          placeholder='Roll'/>
 
           
         <button type='submit'>{props.buttonText}</button>
