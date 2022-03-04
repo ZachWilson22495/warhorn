@@ -17,6 +17,10 @@
 3:00-3:30: Characters now build correctly!
 3:30-4:30: Learned and implemented Select Form. Pseudocoded roll function
 
+3/4
+
+7:00-8:15: Brainstorming function layouts for roll function
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
