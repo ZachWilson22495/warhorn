@@ -24,6 +24,7 @@
 9:30-11:00: Remaking roll function
 11:00-12:00: Split roll function into multiple functions.
 12:00-1:15: Built rollDefault, rollAdvantage, and rollDisadvantage functions
+1:15-2:30: Fixing build errors/bugs in all roll functions
 
 # Getting Started with Create React App
 
