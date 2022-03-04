@@ -20,6 +20,7 @@
 3/4
 
 7:00-8:15: Brainstorming function layouts for roll function
+8:15-9:15: Researching Math.Random. Attempting to add to roll function
 
 # Getting Started with Create React App
 
