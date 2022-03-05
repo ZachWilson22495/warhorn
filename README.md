@@ -32,6 +32,7 @@
 3/5
 
 12:00-1:00: Remaking rollAll function.
+1:00-2:00: Researching Bubble Sort algorithm
 
 
 # Getting Started with Create React App
