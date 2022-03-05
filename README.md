@@ -27,6 +27,7 @@
 1:15-2:30: Fixing build errors/bugs in all roll functions
 2:30-3:15: Added roll button to CharacterDetail. Now rolls!
 3:15-4:15: Trying to build a rollAll function/button
+4:15-5:00: Researching array sort algorithms
 
 # Getting Started with Create React App
 
