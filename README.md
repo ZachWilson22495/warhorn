@@ -29,6 +29,11 @@
 3:15-4:15: Trying to build a rollAll function/button
 4:15-5:00: Researching array sort algorithms
 
+3/5
+
+12:00-1:00: Remaking rollAll function.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
