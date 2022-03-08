@@ -40,7 +40,8 @@
 
 9:00-11:00: Researching CSS Styling with Bootstrap
 11:00-12:00: Researching Redux and rereading course material
-1:00-2:00: Revisiting rollAll. Practicing Bubble Sortgit 
+1:00-2:00: Revisiting rollAll. Practicing Bubble Sort 
+2:00-3:00: Built Sort function from Bubble Sort algorithm
 
 
 # Getting Started with Create React App
