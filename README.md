@@ -36,6 +36,11 @@
 2:00-3:00: Researching NoSQL and rereading course material
 3:00-3:45: Troubleshooting rollAll function.
 
+3/8
+
+9:00-11:00: Researching CSS Styling with Bootstrap
+11:00-12:00: Researching Redux and rereading course material
+
 
 # Getting Started with Create React App
 
