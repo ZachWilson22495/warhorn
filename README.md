@@ -48,6 +48,7 @@
 
 8:00-9:00: Researching buttons in React
 9:00-11:00: Bugfixing roll/sort function and button
+1:00-3:00: MVP Achieved!
 
 
 # Getting Started with Create React App
