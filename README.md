@@ -44,6 +44,11 @@
 2:00-3:00: Built Sort function from Bubble Sort algorithm
 3:00-4:30: roll/sort function now works. Fixing roll/sort button
 
+3/9
+
+8:00-9:00: Researching buttons in React
+9:00-11:00: Bugfixing roll/sort function and button
+
 
 # Getting Started with Create React App
 
