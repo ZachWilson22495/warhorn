@@ -26,11 +26,22 @@ h1 {
 .character {
   color : rgb(19, 38, 41);
   background-color: rgb(135, 190, 228);
-  border: 10px gold;
+  border: 5px solid rgb(255, 241, 164);
+  width: 25%;
   border-radius: 10px;
   margin: 15px;
   padding: 5px;
+  padding-left: 30px;
+}
 
+.header {
+  text-align: center;
+}
+
+.newclass {
+  margin-bottom:20%;
+  border: solid black;
+  border-width: 10px;
 }
 
 code {

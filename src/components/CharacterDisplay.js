@@ -12,15 +12,16 @@ function CharacterDisplay(props){
       {console.log(props.characterList)}
       
       {reversedList.map((character) =>
+      
       <div class="character">
         <Character whenCharacterClicked = { props.onCharacterSelection} 
         name={character.name}
-        roll={character.roll}
+        roll= {character.roll}
         id={character.id}
         key={character.id}/>
       </div>
       )}
-
+    <hr></hr>
 
       <button onClick={()=> onClickingBlow(props.characterList) }>Sound the Warhorn!</button>
       {console.log(props.characterList)}
