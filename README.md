@@ -115,5 +115,6 @@ SOFTWARE.
 3/10
 
 8:40-9:10: Finished README.md
+10:00-11:30: Researching Pre-populated forms. Attempted to implement.
 
 ### Feel free to fix/edit all contained code to your liking. If you encounter and problems, contact me at zwilson22495@gmail.com
