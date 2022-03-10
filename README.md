@@ -51,6 +51,7 @@
 1:00-3:00: MVP Achieved!
 3:00-4:15: CSS styling
 4:15-5:00: More CSS styling
+5:00-6:00: CSS Styling. Laid groundwork for bump function
 
 
 # Getting Started with Create React App
