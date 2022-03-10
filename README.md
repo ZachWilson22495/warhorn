@@ -50,6 +50,7 @@
 9:00-11:00: Bugfixing roll/sort function and button
 1:00-3:00: MVP Achieved!
 3:00-4:15: CSS styling
+4:15-5:00: More CSS styling
 
 
 # Getting Started with Create React App
