@@ -2,22 +2,24 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function CharacterDetail(props){
-  const { character, onClickingDelete } = props; //new code
+  const { character, onClickingDelete, onClickingRoll } = props; //new code
 
   return (
     <React.Fragment>
-      <h3>Name: {character.name}
+      <h3><div class="setup">Name:</div> <div class="punchline"> {character.name} </div>
       <hr></hr>
-      Health: {character.health}
+      <div class="setup">Health:</div> <div class="punchline"> {character.health} </div>
       <hr></hr>
-      Bonus to Initiative: {character.bonus}
+      <div class="setup">Bonus to Initiative:</div> <div class="punchline"> {character.bonus} </div>
       <hr></hr>
-      Advantage/Disadvantage? {character.advantage}
+      <div class="setup">Advantage/Disadvantage?</div> <div class="punchline"> {character.advantage} </div>
       <hr></hr>
-      Initiative Roll: {character.roll}</h3>
+      <div class="setup">Initiative Roll:</div> <div class="punchline"> {character.roll} </div> </h3> 
+      <hr></hr>
+      <button onClick={()=> onClickingRoll(character.id) }>Roll for Initiative!</button>
       <hr></hr>
       <button onClick={ props.onClickingEdit }>Update Character</button>
-      <button onClick={()=> onClickingDelete(character.id) }>Remove Character</button> { /* new code */ }
+      <button onClick={()=> onClickingDelete(character.id) }>Remove Character</button>
       <hr/>
     </React.Fragment>
   );
@@ -25,7 +27,8 @@ function CharacterDetail(props){
 
 CharacterDetail.propTypes = {
   character: PropTypes.object,
-  onClickingDelete: PropTypes.func, // new code
+  onClickingRoll: PropTypes.func,
+  onClickingDelete: PropTypes.func,
   onClickingEdit: PropTypes.func
 };
 export default CharacterDetail;

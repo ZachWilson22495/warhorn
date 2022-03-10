@@ -10,7 +10,6 @@ function Character(props){
         <h3>{props.advantage}</h3>
         <h3>{props.roll}</h3>
       </div>
-      <hr/>
     </React.Fragment>
   );
 }

@@ -8,15 +8,15 @@ function ReusableForm(props) {
         <input
           type='text'
           name='name'
-          placeholder=' Character Name' />
+          placeholder=' Name' />
         <input
           type='number'
           name='health'
-          placeholder='Character Health' />
+          placeholder=' Health' />
         <input
           type='number'
           name='bonus'
-          placeholder='Character Bonus to Initiative' />
+          placeholder=' Bonus to Initiative' />
         <select
           type='text'
           name='advantage'
@@ -26,7 +26,7 @@ function ReusableForm(props) {
           <option value="Disadvantage">Disadvantage</option>
         </select>
         <input
-          type='text'
+          type='number'
           name='roll'
           placeholder='Roll'/>
 

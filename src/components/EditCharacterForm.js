@@ -8,11 +8,17 @@ function EditCharacterForm (props) {
 
   function handleEditCharacterFormSubmission(event) {
     event.preventDefault();
-    props.onEditCharacter({name: event.target.name.value, health: event.target.health.value, bonus: event.target.bonus.value, advantage: event.target.advantage.value, roll: event.target.roll.value, id: character.id});
+    props.onEditCharacter({name: event.target.name.value, 
+      health: event.target.health.value, 
+      bonus: parseInt(event.target.bonus.value), 
+      advantage: event.target.advantage.value, 
+      roll: (isNaN(event.target.roll.value)) ? parseInt(event.target.roll.value) : 0, 
+      id: character.id});
   }
 
   return (
     <React.Fragment>
+      <hr></hr>
       <ReusableForm 
         formSubmissionHandler={handleEditCharacterFormSubmission}
         buttonText="Update Character" />
