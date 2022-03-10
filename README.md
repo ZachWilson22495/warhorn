@@ -1,3 +1,62 @@
+# _Warhorn_
+
+#### Created By _**Zach Wilson**_
+
+#### _A React application that allows you to build a list of characters with different properties, rolls a random number between 1 and 20 for each character, and then sorts the list of characters from highest roll to lowest_
+
+## Technologies Used
+
+* _HTML_
+* _CSS_
+* _Javascript_
+* _React_
+* _webpack_
+* _npm_
+
+## Description
+
+_A webpage built to assist Dungeons and Dragons groups with Initiative rolling. If you use the 'Add Character' button to place in the necessary information on each character participating in the Initiative Roll and then click 'Sound the Warhorn!' Warhorn will automatically roll an Initiative dice for every participant and sort the list of participants from highest Initiative to lowest._
+
+## Setup/Installation Requirements
+
+* Clone this repository to your Desktop
+* From the main project directory, run `npm install` in your terminal to load the necessary plugins and packages.
+* Run `npm run start` in your terminal to start the application.
+* Navigate the page in your browser by clicking 'Add Character,' adding however many characters you wish to add, and clicking 'Sound the Warhorn!' to roll dice for each character.
+
+## Known Bugs
+
+'Sound the Warhorn!' only moves characters up or down the character list by one space. This can be circumvented by clicking 'Sound the Warhorn!' multiple times until all characters have reached their destinations.
+
+Instead of tiebreaker rolls existing in a vacuum between the tiebreaker participants, their new rolls are compared to every other character on the list and they are sorted accordingly. (EX: Two players who tied for last place have to roll off against eachother. Currently, if one of these participants rolls a higher roll than any other player did during the first Initiative roll, not only will they win the tiebreaker, they'll be placed at the top of the final Initiative order)
+
+Connected to the bug above. Tiebreaker rolls do not draw upon each characters' personal bonuses to Initiative. Meaning somebody with a high bonus is at a detriment and somebody with a low bonus is at a benefit by ignoring these players' bonuses.
+
+## License
+
+MIT License
+
+Copyright (c) [2021] [Zachary Wilson]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
 ## Research & Planning Log
 
 2/18
@@ -53,74 +112,8 @@
 4:15-5:00: More CSS styling
 5:00-6:00: CSS Styling. Laid groundwork for bump function
 
+3/10
 
-# Getting Started with Create React App
+8:40-9:10: Finished README.md
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Feel free to fix/edit all contained code to your liking. If you encounter and problems, contact me at zwilson22495@gmail.com
