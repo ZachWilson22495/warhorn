@@ -184,7 +184,7 @@ class CharacterControl extends React.Component{
     return (
       <React.Fragment>
         {currentlyVisibleState}
-        <button onClick={this.handleClick}>{buttonText}</button>
+        <div class="button"><button onClick={this.handleClick}>{buttonText}</button></div>
       </React.Fragment>
     )
     

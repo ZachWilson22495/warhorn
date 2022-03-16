@@ -27,10 +27,11 @@ h1 {
   color : rgb(19, 38, 41);
   background-color: rgb(135, 190, 228);
   border: 5px solid rgb(255, 241, 164);
-  width: 25%;
   border-radius: 10px;
-  margin: 15px;
-  padding: 5px;
+  margin: 10px;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 3px;
   padding-left: 30px;
 }
 
@@ -38,11 +39,58 @@ h1 {
   text-align: center;
 }
 
+.button{
+  text-align: center;
+  top: 50px;
+}
+
 .newclass {
   margin-bottom:20%;
   border: solid black;
   border-width: 10px;
 }
+
+.title{
+  border: solid khaki;
+  border-width: 5px;
+  background-color: rgb(22, 22, 22);
+}
+
+.warhornLeft  {
+float: left;
+padding: 5px;
+margin-top: 1%;
+margin-left: .5%;
+border: solid black;
+border-width: 5px;
+background-color: cornflowerblue;
+}
+
+.warhornRight {
+float: right;
+padding: 5px;
+margin-top: 1%;
+margin-right: .5%;
+border: solid black;
+border-width: 5px;
+background-color: cornflowerblue;
+}
+
+.warhornTitleLeft  {
+  float: left;
+  padding: 5px;
+  margin-top: .5%;
+  margin-left: 20%;
+  margin-right: .5%;
+  }
+
+.warhornTitleRight {
+  float: right;
+  padding: 5px;
+  margin-top: .5%;
+  margin-left: .5%;
+  margin-right: 20%;
+  }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

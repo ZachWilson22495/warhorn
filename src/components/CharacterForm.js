@@ -18,9 +18,11 @@ function CharacterForm(props) {
     <React.Fragment>
       <body>
       <hr></hr>
+      <div class="button">
       <ReusableForm
       formSubmissionHandler={handleNewCharacterFormSubmission}
       buttonText="Add Character" />
+      </div>
       </body>
     </React.Fragment>
   );
